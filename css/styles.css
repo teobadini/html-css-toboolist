@@ -25,10 +25,17 @@ button {
     border-radius: 5px;
     height: 27px;
     width: 78px;
+    margin-bottom: 10px;
 }
 
 hr {
-    color: solid gray;
+    color: #f6f8f9;
+}
+
+header {
+    background-color: white;
+    height: 70px;
+    width: 100%;
 }
 
 /* Class selectors */
@@ -37,13 +44,12 @@ hr {
     margin-bottom: 40px;
 }
 
-.container {
-    background-color: white;
-    padding:  23px;
+.logo {
+    padding: 10px 20px;
 }
 
 .logo {
-    height: 70px;
+    height: 50px;
 }
 
 button.add-task {
@@ -62,6 +68,8 @@ button.add-section {
 .section-title {
     font-size: 20px;
     font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .task-text {
@@ -83,10 +91,22 @@ button.add-section {
 .tag {
     display: inline-block;
     text-align: center;
-    border-radius: 7px;
+    border-radius: 20px;
     width: 56px;
     height: 21px;
     color: white;
     font-size: 10px;
     background-color: #14aaf5;
+    line-height: 21px;
 }
+
+.container {
+    width: 80%;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    padding: 20px 35px;
+  }
+  
