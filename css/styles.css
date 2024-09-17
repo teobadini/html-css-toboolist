@@ -68,9 +68,10 @@ button.add-section {
     height: 7px;
 }
 
-.section-title {
+h3.section-title {
+    font-family: "Poppins";
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -126,4 +127,10 @@ button.add-section {
     font-size: 15px;
     font-weight: 200;
     margin-bottom: 20px;
+  }
+
+  .section-title::before{
+    content: "\25be";
+    font-size: 14px;
+    margin-right: 10px;
   }
