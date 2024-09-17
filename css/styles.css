@@ -1,0 +1,15 @@
+/* Utility */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    background-color: white;
+}
+
+.logo [
+    height: 70px;
+]
