@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 /* tag selectors */
@@ -19,6 +20,10 @@ p {
 
 img {
     display: inline-block;
+}
+
+#buttons {
+    border-bottom: 2px solid #f6f8f9;
 }
 
 button {
@@ -79,6 +84,7 @@ button.add-section {
     width: 17px;
     color: #2cc6ab;
     text-align: center;
+    line-height: 17px;
 }
 
 .task-incomplete {
@@ -90,6 +96,7 @@ button.add-section {
     width: 17px;
     color: #df0d0d;
     text-align: center;
+    line-height: 17px;
 }
 
 .tag {
