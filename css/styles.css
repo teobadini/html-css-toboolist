@@ -37,13 +37,10 @@ header {
     background-color: white;
     height: 70px;
     width: 100%;
+    margin-bottom: 40px;
 }
 
 /* Class selectors */
-
-.mb-40 {
-    margin-bottom: 40px;
-}
 
 .logo {
     padding: 10px 20px;
@@ -73,12 +70,7 @@ button.add-section {
     margin-bottom: 20px;
 }
 
-.task-text {
-    font-size: 15px;
-    font-weight: 200;
-}
-
-.icon-circle {
+.task-complete {
     display: inline-block;
     border-radius: 50px;
     outline: 1px solid #2cc6ab;
@@ -86,6 +78,17 @@ button.add-section {
     height: 17px;
     width: 17px;
     color: #2cc6ab;
+    text-align: center;
+}
+
+.task-incomplete {
+    display: inline-block;
+    border-radius: 50px;
+    outline: 1px solid #df0d0d;
+    font-size: 15px;
+    height: 17px;
+    width: 17px;
+    color: #df0d0d;
     text-align: center;
 }
 
@@ -111,3 +114,8 @@ button.add-section {
     padding: 20px 35px;
   }
   
+  ul li {
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 200;
+  }
