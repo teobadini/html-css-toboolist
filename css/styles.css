@@ -6,9 +6,32 @@
     border: 0;
 }
 
+/* tag selectors */
+
 body {
     background-color: #f6f8f9;
 }
+
+p {
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+}
+
+button {
+    color: black;
+    border-radius: 5px;
+    height: 27px;
+    width: 78px;
+}
+
+hr {
+    color: solid gray;
+}
+
+/* Class selectors */
 
 .mb-40 {
     margin-bottom: 40px;
@@ -23,13 +46,6 @@ body {
     height: 70px;
 }
 
-button {
-    color: black;
-    border-radius: 5px;
-    height: 27px;
-    width: 78px;
-}
-
 button.add-task {
     background-color: #14aaf5;
 }
@@ -41,4 +57,36 @@ button.add-section {
     
 .open-arrow {
     height: 7px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.task-text {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.icon-circle {
+    display: inline-block;
+    border-radius: 50px;
+    outline: 1px solid #2cc6ab;
+    font-size: 15px;
+    height: 17px;
+    width: 17px;
+    color: #2cc6ab;
+    text-align: center;
+}
+
+.tag {
+    display: inline-block;
+    text-align: center;
+    border-radius: 7px;
+    width: 56px;
+    height: 21px;
+    color: white;
+    font-size: 10px;
+    background-color: #14aaf5;
 }
