@@ -6,10 +6,39 @@
     border: 0;
 }
 
-.container {
-    background-color: white;
+body {
+    background-color: #f6f8f9;
 }
 
-.logo [
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.container {
+    background-color: white;
+    padding:  23px;
+}
+
+.logo {
     height: 70px;
-]
+}
+
+button {
+    color: black;
+    border-radius: 5px;
+    height: 27px;
+    width: 78px;
+}
+
+button.add-task {
+    background-color: #14aaf5;
+}
+
+button.add-section {
+    background-color: white;
+    outline: 1px solid gray;
+}
+    
+.open-arrow {
+    height: 7px;
+}
