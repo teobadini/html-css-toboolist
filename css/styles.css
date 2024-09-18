@@ -22,10 +22,6 @@ img {
     display: inline-block;
 }
 
-#buttons {
-    border-bottom: 2px solid #f6f8f9;
-}
-
 button {
     color: black;
     border-radius: 5px;
@@ -46,6 +42,10 @@ header {
 }
 
 /* Class selectors */
+
+#buttons {
+    border-bottom: 2px solid #f6f8f9;
+}
 
 .logo {
     padding: 10px 20px;
@@ -100,20 +100,6 @@ h3.section-title {
     line-height: 17px;
 }
 
-.tag {
-    display: inline-block;
-    text-align: center;
-    border-radius: 20px;
-    width: auto;
-    height: auto;
-    color: white;
-    font-size: 12px;
-    font-weight: 300;
-    background-color: #808080;
-    line-height: 21px;
-    padding: 3px 10px;
-}
-
 .container {
     width: 80%;
     height: auto;
@@ -135,4 +121,44 @@ h3.section-title {
     content: "\25be";
     font-size: 14px;
     margin-right: 10px;
+  }
+
+/* Task Tags */
+
+.tag {
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    background-color: #808080;
+    line-height: 21px;
+    padding: 3px 10px;
+}
+
+  .editorial {
+    background-color: #09a9ed;
+  }
+
+  .q1-goals {
+    background-color: #ab5de6;
+  }
+
+  .recruiting {
+    background-color: #2cc6ab;
+  }
+
+  .mobile {
+    background-color: #ff9b00;
+  }
+
+  .sales {
+    background-color: #a3d116;
+  }
+
+  .website {
+    background-color: #ec4a9d;
   }
