@@ -13,11 +13,6 @@ body {
     background-color: #f6f8f9;
 }
 
-p {
-    display: inline-block;
-    font-family: "Poppins";
-}
-
 img {
     display: inline-block;
 }
@@ -39,6 +34,10 @@ header {
     height: 70px;
     width: 100%;
     margin-bottom: 40px;
+}
+
+span {
+  font-family: "Poppins";
 }
 
 /* Class selectors */
